@@ -12,11 +12,13 @@
 // twoSum [1, 2, 3] 4 === (0, 2)
 
 function twoSum(numbers, target) {
-    for (var i = 0; i < numbers.length-1; i++) {
-        for (var j = i+1; j < numbers.length; j++) {
-            if (numbers[i] + numbers[j] === target) return [i, j];
+    for (var i = 0; i < numbers.length-1; i++) { //Loop through the numbers array, keep adding 1
+        for (var j = i+1; j < numbers.length; j++) { // Loop through another array, to look for the next number
+            if (numbers[i] + numbers[j] === target) return [i, j]; //if numbers[i] + numbers[j] === target then return [i, j]
         }
     }
 }
+
+
 
 
