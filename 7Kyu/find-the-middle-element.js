@@ -18,3 +18,7 @@ var gimme = function (inputArray) {
     return inputArray.indexOf(order[1]);
      
    };
+
+// 1. slice array
+// 2. sort by ascending order by using return a-b
+// 3. return the argument with the new variable order, finding the middle index which is 1.
