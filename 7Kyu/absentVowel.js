@@ -13,7 +13,7 @@
 // "Bb Smith sent us six neatly arranged range bicycles"  =>  3  ; missing: "o"
 
 
-function absentVowel(x){
+function absentVowel(str){
   
   let vowels = 'aeiou'
   
@@ -25,4 +25,5 @@ function absentVowel(x){
 }
 } 
 
- 
+//  for ... in iterates over the string if there is any i, it will return the number
+
