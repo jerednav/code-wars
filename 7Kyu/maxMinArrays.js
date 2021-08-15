@@ -24,7 +24,10 @@
 // pseudocode
 
 // 1. sort array from lowest to highest and highest to lowest
-// 2. 
+// 2. create new array of min to max numbers
+// 3. loop through both arrays
+// 4. start at the index (i) which is 0
+// 5. 
 
 function solve(arr){
   var minMax = [];
