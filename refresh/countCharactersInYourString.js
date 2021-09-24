@@ -37,3 +37,16 @@ function count (string) {
   .forEach(c=> charCount[c] ? charCount[c]++ : charCout[c]=1)
   return charCount
 }
+
+
+For of loop
+
+function totalCount(str) {
+  let totalChars = {}
+  
+  for (let char of str) {
+    totalChars[chars] = (totalChars[chars] || 0)+ 1
+  }
+  return totalChars
+  
+}
