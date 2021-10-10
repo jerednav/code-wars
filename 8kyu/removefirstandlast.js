@@ -8,3 +8,20 @@ function removeChar(str){
   1= first letter of the string
   -1 = last letter of the string
   
+  
+  Parameters
+  Given one parameter, the original string
+  
+  Return
+  Return string with the first and last character missing
+  
+  Example
+     assert.strictEqual(removeChar('eloquent'), 'loquen');
+    assert.strictEqual(removeChar('country'), 'ountr');
+    assert.strictEqual(removeChar('person'), 'erso');
+    assert.strictEqual(removeChar('place'), 'lac');
+    assert.strictEqual(removeChar('ooopsss'), 'oopss');
+    
+    Pseudocode
+    1. Use slice to start at the second character and end at the second to last character
+  
