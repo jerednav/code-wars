@@ -1,13 +1,26 @@
-// In this Kata, you will be given an array of arrays and your task will be to return the number of unique arrays that can be 
-// formed by picking exactly one element from each subarray.
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
 
-// For example: solve([[1,2],[4],[5,6]]) = 4, because it results in only 4 possibilites. They are [1,4,5],[1,4,6],[2,4,5],[2,4,6].
+Return your answer as a number.
 
-// Make sure that you don't count duplicates; for example solve([[1,2],[4,4],[5,6,6]]) = 4, since the extra outcomes are just duplicates.
 
-// See test cases for more examples.
+Parameters
+Given an array of integers as strings and numbers
 
-// Good luck!
+Return 
+Return your number as a number
+
+Example
+  assert.strictEqual(sumMix([9, 3, '7', '3']), 22);
+    assert.strictEqual(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7]), 42); 
+    assert.strictEqual(sumMix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']), 41); 
+ 
+Pseudocode
+1. Reduce the numbers into a sum
+2. Use Number to convert strings into numbers if needed.
+
+
+
+
 
 function sumMix(x){
   return x.reduce((acc, c) => Number(acc) + Number(c), 0)
